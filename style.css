@@ -125,3 +125,153 @@ margin-bottom: 20px;
         font-size: 9px;
     }
 }
+
+#sec-3{
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+    margin: 70px;
+}
+#sec3-filter>h5{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+#sec3-filter>p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#sec3-filter>span{
+    margin: 10px;
+}
+#sec3-pics{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec3-card{
+    margin : 5px;
+    box-shadow: 0px 3px 8px 4px #3232470D;
+    border-radius : 16px;
+}
+.sec3-card>img{
+    padding: 5px;
+}
+.card-in{
+    padding: 10px;
+}
+.card-in>p{
+    color : #7e7777;
+}
+.card-name{
+    font-size: 20px;
+    font-weight: 700;
+}
+.sec3-div1 , .sec3-div2{
+    display: flex;
+    justify-content: space-between;
+}
+.sec3-div2>p{
+    color : red;
+    font-weight: 400;
+    font-size: 20px;
+}
+.sec3-div1>p>i{
+    color : #fdc040;
+    margin-right: 10px;
+}
+.sec3-div2>div>i:first-child{
+     margin-right: 20px;
+}
+@media screen and (max-width : 600px){
+    #sec-3{
+       grid-template-columns: 1fr;
+    }
+    #sec3-filter>h5{
+        display: none;
+    }
+    .sec3-div1>p>i{
+        display: none;
+    }
+    .sec3-div2>div>i{
+        display: none;
+    }
+    .s3-d1-p2{
+        display: none;
+    }
+    #sec-3{
+        margin: 50px;
+    }
+    .sec3-card>img{
+        width : 45vw;
+    }
+}
+@media screen and (min-width : 600px) and (max-width : 1000px){
+    .sec3-card>img{
+        width : 30vw;
+    }
+}
+#footer{
+    margin-bottom: 30px;
+}
+#f-div1{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+}
+ #foot-div4{
+    width : 30vw;
+}
+#foot-div1{
+    width : 20vw;
+}
+#f-div1>div>p{
+    color : #435866;
+}
+#foot-div2>h5 , #foot-div3>h5{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#foot-div2>p , #foot-div3>p{
+    margin-top: 10px;
+}
+#foot-div4>p{
+    margin: 10px 2px;
+}
+#f-div2{
+    text-align: center;
+}
+#f-div2>img{
+    margin-inline: 10px;
+}
+#foot-div4>input{
+    padding: 5px;
+    border-radius: 5px;
+}
+#foot-div4>button{
+    /* height : 30px; */
+    background-color: #509e2f;
+    color : white;
+    border : none;
+    margin-left: 5px;
+    padding : 7px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width : 500px){
+    #foot-div2 , #foot-div3 , #foot-div4{
+        display: none;
+    }
+    #foot-div1{
+        width : 430px;
+       margin: 10px;
+       
+    }
+    #foot-div1>img{
+        margin-bottom: 20px;
+    }
+    #f-div2{
+        display: none;
+    }
+}
