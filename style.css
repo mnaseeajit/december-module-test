@@ -182,7 +182,7 @@ margin-bottom: 20px;
 .sec3-div2>div>i:first-child{
      margin-right: 20px;
 }
-@media screen and (max-width : 600px){
+@media screen and (max-width : 500px){
     #sec-3{
        grid-template-columns: 1fr;
     }
@@ -203,6 +203,32 @@ margin-bottom: 20px;
     }
     .sec3-card>img{
         width : 45vw;
+    }
+}
+@media screen and (min-width : 500px) and (max-width : 600px){
+  .sec3-card>img{
+    width : 30vw;
+  }
+  #sec-3{
+       grid-template-columns: 1fr;
+    }
+    #sec3-filter>h5{
+        display: none;
+    }
+    .sec3-div1>p>i{
+        display: none;
+    }
+    .sec3-div2>div>i{
+        display: none;
+    }
+    .s3-d1-p2{
+        display: none;
+    }
+    #sec-3{
+        margin: 50px;
+    }
+    #sec2-btn3{
+        margin-top: 10px;
     }
 }
 @media screen and (min-width : 600px) and (max-width : 1000px){
@@ -259,7 +285,7 @@ margin-bottom: 20px;
     border-radius: 5px;
 }
 
-@media screen and (max-width : 500px){
+@media screen and (max-width : 600px){
     #foot-div2 , #foot-div3 , #foot-div4{
         display: none;
     }
@@ -273,5 +299,11 @@ margin-bottom: 20px;
     }
     #f-div2{
         display: none;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width : 950px){
+    #foot-div4>button{
+        margin-top: 10px;
     }
 }
