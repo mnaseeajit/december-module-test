@@ -182,6 +182,11 @@ margin-bottom: 20px;
 .sec3-div2>div>i:first-child{
      margin-right: 20px;
 }
+
+.sec3-img{
+    width : 300px;
+    height: 200px;
+}
 @media screen and (max-width : 500px){
     #sec-3{
        grid-template-columns: 1fr;
@@ -204,6 +209,15 @@ margin-bottom: 20px;
     .sec3-card>img{
         width : 45vw;
     }
+    .sec3-img{
+        width : 45vw;
+       height : 100px;
+
+    }
+    .card-name{
+        font-size: medium;
+    }
+
 }
 @media screen and (min-width : 500px) and (max-width : 600px){
   .sec3-card>img{
@@ -306,4 +320,72 @@ margin-bottom: 20px;
     #foot-div4>button{
         margin-top: 10px;
     }
+}
+
+@media screen and (min-width : 500px){
+      #list{
+        display: none;
+      }
+}
+@media screen and (max-width : 500px){
+    #navigationBar{
+      display: none;
+    }
+}
+body{
+    position: relative;
+}
+#list>button{
+    margin-left: 50px;
+    padding: 5px;
+    background-color: white;
+    border : none;
+    margin-bottom: 10px;
+}
+#list>img{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#drawer{
+    height: 100%;
+    width : 70vw;
+    position: absolute;
+    left : 0;
+    top : 0;
+    background-color: white;
+    padding : 20px;
+}
+#drawer li{
+    list-style-type: none;
+    margin: 20px;
+}
+#drawer>#dr-img{
+    margin-left: 20px;
+}
+.heart{
+    height : 13px;
+    padding-bottom: 2px;
+    border-radius : 10px ;
+}
+#navigationBar li:hover{
+    color : green;
+    cursor: pointer;
+}
+#sec-2 button:hover{
+    cursor: pointer;
+}
+#sec-3 input:hover{
+    cursor: pointer;
+}
+#foot-div2 p:hover{
+    color : green;
+    cursor: pointer;
+}
+#foot-div3 p:hover{
+    color : green;
+    cursor: pointer;
+}
+#f-div2 :hover{
+  cursor: pointer;
+   scale: 1.2;
 }
